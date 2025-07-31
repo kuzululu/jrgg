@@ -41,7 +41,7 @@ function App() {
     <>
     {/* Your other components */}
       - <MessengerChat />
-+ <Messenger />
+      + <Messenger />
 
 
      <Routes>
