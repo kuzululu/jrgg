@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 import { useEffect, useState, userRef } from "react"
 import Logo from '../../assets/images/logo/logo.png'
 
@@ -25,25 +25,25 @@ const Navbar = () =>{
 
             <div className='container-fluid'>
 
-            <Link to='/' className='navbar-brand fw-bolder text-uppercase text-light animate__animated animate__fadeIn animate__infinite infinite'>
+            <NavLink to='/' className='navbar-brand fw-bolder text-uppercase text-light animate__animated animate__fadeIn animate__infinite infinite'>
              <img src={ Logo } className="img-fluid position-absolute d-lg-block d-md-block d-none" id="logoNavbar" />
-            </Link>
+            </NavLink>
 
             <button className='navbar-toggler bg-light' type='button' data-bs-toggle='collapse' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'  data-bs-target='#navbarNav'><span className='navbar-toggler-icon'></span></button>
 
             <div className='collapse justify-content-end navbar-collapse' id='navbarNav'>
                 <ul className='navbar-nav'>
                     <li className="nav-item ps-lg-4 pe-lg-4">
-                        <Link to='/' className="nav-link glow-link text-light text-uppercase fw-bolder">Home</Link>
+                        <NavLink to='/' className="nav-link glow-link text-light text-uppercase fw-bolder">Home</NavLink>
                     </li>
                     <li className="nav-item ps-lg-4 pe-lg-4">
-                        <Link to='/about' className="nav-link glow-link text-light text-uppercase fw-bolder">About</Link>
+                        <NavLink to='/about' className="nav-link glow-link text-light text-uppercase fw-bolder">About</NavLink>
                     </li>
                     <li className="nav-item ps-lg-4 pe-lg-4">
-                        <Link to='/portfolio' className="nav-link glow-link text-light text-uppercase fw-bolder">Portfolio</Link>
+                        <NavLink to='/portfolio' className="nav-link glow-link text-light text-uppercase fw-bolder">Portfolio</NavLink>
                     </li>
                     <li className="nav-item ps-lg-4 pe-lg-4">
-                        <Link to='/contact' className="nav-link glow-link text-light text-uppercase fw-bolder">Contact</Link>
+                        <NavLink to='/contact' className="nav-link glow-link text-light text-uppercase fw-bolder">Contact</NavLink>
                     </li>
                 </ul>
             </div>
