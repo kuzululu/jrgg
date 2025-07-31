@@ -30,7 +30,7 @@ return (
       <a href='https://www.linkedin.com/in/jeff-ronald-gamasan-684563215/' target='_blank' className="me-4 text-info">
         <i className="fab fa-linkedin"></i>
       </a>
-      <a href='#' target='_blank' className="me-4 text-dark ">
+      <a href='https://github.com/kuzululu' target='_blank' className="me-4 text-dark ">
         <i className="fab fa-github"></i>
       </a>
     </div>
