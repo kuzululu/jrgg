@@ -16,7 +16,7 @@ import logo from "./assets/images/logo/logo.png"
 
 import AOS from "aos"
 
-import Messenger from "./shared/components/MessengerChat"
+import Messenger from "./shared/components/MessengerButton"
 
 function App() {
   
@@ -40,7 +40,8 @@ function App() {
   return (
     <>
     {/* Your other components */}
-    <Messenger />
+      {/* - <MessengerChat /> */}
+      <Messenger />
 
 
      <Routes>
