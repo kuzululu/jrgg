@@ -14,7 +14,7 @@ const MessengerButton = () => {
         bottom: "24px",
         right: "24px",
         backgroundColor: "#dae0e6ff",
-        color: "#fff",
+        color: "#080302",
         border: "none",
         padding: "12px 16px",
         borderRadius: "50px",
