@@ -8,6 +8,7 @@ dotenv.config()
 export default defineConfig({
   plugins: [react()],
   server:{
-    base: "/reactPortfolio"
+    base: "/reactPortfolio",
+    base: process.env.VITE_BASE_PATH || "/reactPortfolio",
   }
 })
