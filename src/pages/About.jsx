@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { Helmet } from "react-helmet-async"
 import Typed from "typed.js"
 import TypingEffect from "../shared/components/TypingEffect"
-import profile from "../assets/images/profile/profile.jpg"
+import profile from "../assets/images/profile/slider-commapp_v3_1.jpg"
 
 const AboutPage = () => {
   return (
