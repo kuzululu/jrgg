@@ -40,7 +40,9 @@ function App() {
   return (
     <>
     {/* Your other components */}
-      <Messenger /> 
+      - <MessengerChat />
++ <Messenger />
+
 
      <Routes>
       <Route element={<RootLayout />}>
