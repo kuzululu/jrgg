@@ -1,0 +1,60 @@
+check first if nodejs, npm, yarn are installed
+check: 
+	npm -v
+	node -v
+	yarn -v
+
+install yarn and vite
+https://chatgpt.com/share/6881c69f-3f08-8003-9eff-e55aaaea83de
+
+if yarn is not installed,install yarn in npm(npm install -g yarn)
+1. Comand (yarn create vite)
+2. create project name
+3. yarn
+4. yarn add dotenv
+
+Create react royanuters
+1. yarn add react-router-dom
+
+add bootstrap
+1.yarn add bootstrap
+2.import 'bootstrap/dist/css/bootstrap.min.css';
+
+add animate
+
+1. yarn add animate.css
+
+install fabicon 
+yarn add @fortawesome/fontawesome-free
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
+start the react server using yarn type
+yarn run dev
+
+change the title of the webpage in react dynamically
+https://chatgpt.com/share/6881cdde-3884-8003-9a1a-f63751638a84
+
+1. install yarn add react-helmet-async for latest version
+2. in main.jsx import { HelmetProvider } from 'react-helmet-async'
+3. import in every pages 
+import { Helmet } from 'react-helmet-async';
+
+make react in type.jsx
+1. add yarn typed.js
+2. create typingEffect.jsx in components
+
+
+for creating multiple set skills 
+https://chatgpt.com/share/688764b9-8f80-8003-a119-b05bbc95d083
+1. Create a reusable SkillProgressBar.jsx component
+2. import the component on a page
+
+to share the reactJS over the network
+1. config the vite.js
+ server: {
+    host: '0.0.0.0', // <-- Add this line to allow LAN access
+    port: Number(process.env.VITE_PORT)
+}
+
+2. run the php -S to ip address of the pc:2022
+https://chatgpt.com/share/6888be1d-0ad4-8003-80a6-8757e6916233

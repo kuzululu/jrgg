@@ -1,0 +1,60 @@
+https://chatgpt.com/share/688328f6-0ecc-8003-bdfb-1f96d55bec6b
+
+1. download phpmailer using axios
+composer require phpmailer/phpmailer
+2. install axios
+npm install axios or yarn add axios
+
+to run the built php server in the backend folder ino order to work the phpmailer 
+run php -S localhost:port_number
+
+add sweeetalert for swal after clicking the sending button
+1. yarn add sweetalert2
+2. import Swal from "sweetalert2";
+
+add fb messenger chat plugin 
+1. place the code inside the inde.html
+
+"<!-- Facebook Messenger Plugin -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      xfbml: true,
+      version: 'v19.0' // Make sure to use the latest version
+    });
+  };
+
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+"
+
+2. still inside the index.html add this after the fb-root
+"
+<!-- Messenger Chat Plugin -->
+<div
+  class="fb-customerchat"
+  attribution="setup_tool"
+  page_id="YOUR_PAGE_ID"
+  theme_color="#0084FF"
+  logged_in_greeting="Hi! How can we help you?"
+  logged_out_greeting="Hi! Please log in to chat with us.">
+</div>
+"
+
+3. to know the fb page id
+ Method 3: Using Meta Business Manager
+Go to https://business.facebook.com.
+
+Click your Business Account.
+
+Go to Business Settings ➜ Accounts ➜ Pages.
+
+Select your Page — you’ll see the Page ID on the right panel.
+steps source: https://chatgpt.com/share/68862685-828c-8003-8077-f1443221f8c2
