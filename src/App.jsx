@@ -16,6 +16,8 @@ import logo from "./assets/images/logo/logo.png"
 
 import AOS from "aos"
 
+import Messenger from "./shared/components/MessengerChat"
+
 function App() {
   
   useEffect(() =>{
@@ -37,6 +39,9 @@ function App() {
 
   return (
     <>
+    {/* Your other components */}
+      <MessengerChat /> 
+
      <Routes>
       <Route element={<RootLayout />}>
         
