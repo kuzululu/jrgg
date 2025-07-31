@@ -59,7 +59,8 @@ useEffect(()=>{
           }
         })
 
-      const res = await axios.post("http://localhost:2022/send_email.php", formData)
+      // const res = await axios.post("http://localhost:2022/send_email.php", formData)
+      const res = await.axios.port("https://react-portfolio-two-flame.vercel.app/send_email.php", formData)
       // const res = await axios.post("http://ip_address_of_pc:2022/send_email.php", formData)
       // const res = await axios.post("http://192.168.1.8:2022/send_email.php", formData)
 
