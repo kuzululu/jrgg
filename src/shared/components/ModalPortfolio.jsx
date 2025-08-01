@@ -9,6 +9,7 @@ import ezh_web from '../../assets/images/portfolio/slider-ezh_web.jpg'
 import life1corp from '../../assets/images/portfolio/slider-life1corp.jpg'
 import sample from '../../assets/images/portfolio/slider-sample.jpg'
 import school from '../../assets/images/portfolio/slider-school.jpg'
+import ammon from '../../assets/images/portfolio/slider-construction_company.jpg'
 
 const ModalPortfolio = () =>{
 
@@ -275,6 +276,21 @@ closeBtns.forEach((btn) => {
             <h3>AZGH College Web</h3>
             <p>
                 This porfolio was made in 2017 I develope this website for the school that i used to work but still i'm was using bootstrap 3 back then
+            </p>
+         </div>
+        </div>
+      </div>
+
+      <div className="modal-body">
+        <div className="row">
+         <div className="col-md-7 col-lg-7">
+            <img src={ ammon } className="img-fluid w-100 h-100 img-thumbnail" />
+         </div>
+         <div className="col-md-5 col-lg-5">
+            <h3>Ammon Contracting L.L.C</h3>
+            <p>
+                This porfolio was made in 2024 I develope this website for Construction Company in UAE as a subcon.
+                <a href="https://ammoncontractingllc.ae/" target="_blank" rel="noopener noreferrer" className="text-danger fw-bolder">Visit</a>
             </p>
          </div>
         </div>
