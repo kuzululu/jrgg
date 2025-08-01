@@ -60,10 +60,15 @@ body{
 	background-color: var(--black_pearl);
 }
 
-.about-me{
+.about-me, .home-intro{
 	text-align: justify;
 	font-size: 1.2em;
 	text-indent: 10%;
+}
+
+.home-outro{
+  text-align: justify;
+	font-size: 1.2em;
 }
 
 .services{
