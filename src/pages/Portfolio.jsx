@@ -12,6 +12,7 @@ import ezh_web from '../assets/images/portfolio/slider-ezh_web.jpg'
 import life1corp from '../assets/images/portfolio/slider-life1corp.jpg'
 import sample from '../assets/images/portfolio/slider-sample.jpg'
 import school from '../assets/images/portfolio/slider-school.jpg'
+import ammon from '../assets/images/portfolio/slider-construction_company.jpg'
 
 const PortfolioPage = () => {
   return (
@@ -53,6 +54,12 @@ const PortfolioPage = () => {
           </div>
           <div className="col-md-3 col-lg-3">
             <a data-bs-toggle="modal" data-bs-target="#modalSchool" href="#"><img src={ school } className="img-fluid img-thumbnail w-100" /></a>
+          </div>
+        </div>
+
+        <div className="row mt-5 mb-3">
+          <div className="col-md-3 col-lg-3 mb-md-0 mb-lg-0 mb-3">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modalAmmon"><img src={ ammon }   className="img-fluid img-thumbnail w-100" /></a>
           </div>
         </div>
 
