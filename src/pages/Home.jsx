@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 // for dynamic website name
 import { Helmet } from "react-helmet-async"
 import SkillProgressBar from "../shared/components/SkillProgresBar"
+import HomeBanner from "../shared/components/BannerHome"
 
 const HomePage = () => {
   const [scrollProgress, setScrollProgress] = useState(0)
@@ -29,6 +30,39 @@ const HomePage = () => {
  {/* Services Section - Skipped for brevity */}
 
       <hr className="border border-2 border-light" />
+
+      <div className="container-fluid text-light mb-md-5 mb-lg-5 mb-4">
+        <div className="row">
+          <div className="col-md-8 col-lg-8 mb-md-0 mb-lg-0 mb-4">
+            <h4 className="text-center">Freelance Web Developer | Responsive, Fast & Affordable Websites</h4>
+            <p className="home-intro">
+              Hi! I’m a passionate freelance web developer with strong experience in building responsive, user-friendly websites using the latest web technologies. I specialize in:
+            </p>
+            
+            <code className="about-me-list text-light fw-bolder">
+              <ul>
+              <li><span className="fw-bolder">Frontend:</span> HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
+              <li><span className="fw-bolder">Backend:</span>PHP + MySQL</li>
+              <li><span className="fw-bolder">Frameworks:</span> CodeIgniter, Laravel</li>
+              <li><span className="fw-bolder">Frontend:</span> HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
+              <li><span className="fw-bolder">Modern Development:</span> Comprehsive skills in <span>ReactJS</span> for dynamic, fast loading UIs</li>
+            </ul>
+            </code>
+
+            <p className="home-intro">
+              I develop responsive websites that load faster, perform better, and look great on all devices. Whether it’s a static website at an affordable price or a custom dynamic application, I’m committed to delivering clean, optimized, and scalable solutions tailored to your needs.
+            </p>
+            <p className="home-outro">
+              Let’s bring your ideas to life with clean code and modern design!
+            </p>
+          </div>
+
+          <div className="col-md-4 col-lg-4">
+            <h4 className="text-center">Projects</h4>
+            <HomeBanner />
+          </div>
+        </div>
+      </div>
 
       <div className="container-fluid text-light mb-5">
        
