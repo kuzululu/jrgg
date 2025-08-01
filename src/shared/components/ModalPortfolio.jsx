@@ -306,7 +306,7 @@ closeBtns.forEach((btn) => {
          <div className="col-md-5 col-lg-5">
             <h3>Ammon Contracting L.L.C</h3>
             <p>
-                This porfolio was made in 2024 I develope this website for Construction Company in UAE as a subcon.
+                This porfolio was made in 2024 I develope this website for Construction Company in UAE as a subcon web Developer.
                 <a href="https://ammoncontractingllc.ae/" target="_blank" rel="noopener noreferrer" className="text-danger fw-bolder">Visit</a>
             </p>
          </div>
