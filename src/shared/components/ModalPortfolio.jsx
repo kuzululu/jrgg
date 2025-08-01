@@ -281,6 +281,23 @@ closeBtns.forEach((btn) => {
         </div>
       </div>
 
+     </div>
+    </div>
+
+  </div>
+
+     {/* modalAmmon */}
+
+<div id="modalAmmon" className="modal fade" tabIndex={-1}>
+
+    <div className="modal-dialog modal-lg modal-dialog-scrollable">
+     <div className="modal-content">
+       
+      <div className="modal-header">
+        <h3 className="text-primary fw-bolder modal-title animate__animated animate__fadeIn animate__infinite infinite animate__slow">Ammon Contracting L.L.C</h3>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
       <div className="modal-body">
         <div className="row">
          <div className="col-md-7 col-lg-7">
