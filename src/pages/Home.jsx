@@ -44,7 +44,6 @@ const HomePage = () => {
               <li><span className="fw-bolder">Frontend:</span> HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
               <li><span className="fw-bolder">Backend:</span>PHP + MySQL</li>
               <li><span className="fw-bolder">Frameworks:</span> CodeIgniter, Laravel</li>
-              <li><span className="fw-bolder">Frontend:</span> HTML5, CSS3, JavaScript, jQuery, Bootstrap</li>
               <li><span className="fw-bolder">Modern Development:</span> Comprehsive skills in <span>ReactJS</span> for dynamic, fast loading UIs</li>
             </ul>
             </code>
