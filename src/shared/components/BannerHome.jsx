@@ -9,6 +9,7 @@ import life1corp from '../../assets/images/portfolio/slider-life1corp.jpg'
 import sample from '../../assets/images/portfolio/slider-sample.jpg'
 import school from '../../assets/images/portfolio/slider-school.jpg'
 import ammon from '../../assets/images/portfolio/slider-construction_company.jpg'
+import mis from '../../assets/images/portfolio/slider-mis.jpg'
 
 const HomeBanner = () =>{
  return(
@@ -26,6 +27,7 @@ const HomeBanner = () =>{
             <button type="button" data-bs-target="#Homecarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
             <button type="button" data-bs-target="#Homecarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
             <button type="button" data-bs-target="#Homecarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#Homecarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
         </div>
 
         <div className='carousel-inner'>
@@ -64,9 +66,12 @@ const HomeBanner = () =>{
              <div className='carousel-item' data-bs-interval='3000'>
                 <img src={ ammon } className="img-fluid img-thumbnail w-100" />
              </div>
+
+             <div className='carousel-item' data-bs-interval='3000'>
+                <img src={ mis } className="img-fluid img-thumbnail w-100" />
+             </div>
         </div>
 
-        
         <button className="carousel-control-prev" type="button" data-bs-target="#Homecarousel" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
