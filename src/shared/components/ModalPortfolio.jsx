@@ -10,6 +10,7 @@ import life1corp from '../../assets/images/portfolio/slider-life1corp.jpg'
 import sample from '../../assets/images/portfolio/slider-sample.jpg'
 import school from '../../assets/images/portfolio/slider-school.jpg'
 import ammon from '../../assets/images/portfolio/slider-construction_company.jpg'
+import mis from '../../assets/images/portfolio/slider-mis.jpg'
 
 const ModalPortfolio = () =>{
 
@@ -57,7 +58,7 @@ closeBtns.forEach((btn) => {
          <div className="col-md-5 col-lg-5">
             <h3>Accounting Porfolio</h3>
             <p>
-                This porfolio was made last 2018 for Accounting Firm, this was made in bootstrap 3 <a href="https://react-accounting-beryl.vercel.app/" target="_blank" className="fw-bolder text-danger">Visit</a>
+                This porfolio was made last 2018 for Accounting Firm, this was made in bootstrap 3
             </p>
          </div>
         </div>
@@ -286,7 +287,7 @@ closeBtns.forEach((btn) => {
 
   </div>
 
-     {/* modalAmmon */}
+  {/* modalAmmon */}
 
 <div id="modalAmmon" className="modal fade" tabIndex={-1}>
 
@@ -306,8 +307,40 @@ closeBtns.forEach((btn) => {
          <div className="col-md-5 col-lg-5">
             <h3>Ammon Contracting L.L.C</h3>
             <p>
-                This porfolio was made in 2024 I develope this website for Construction Company in UAE as a subcon web Developer.
+                This porfolio was made in 2024 I develope this website for Construction Company in UAE as a subcon.
                 <a href="https://ammoncontractingllc.ae/" target="_blank" rel="noopener noreferrer" className="text-danger fw-bolder">Visit</a>
+            </p>
+         </div>
+        </div>
+      </div>
+
+     </div>
+    </div>
+
+  </div>
+
+  {/* modalMis */}
+
+<div id="modalMis" className="modal fade" tabIndex={-1}>
+
+    <div className="modal-dialog modal-lg modal-dialog-scrollable">
+     <div className="modal-content">
+       
+      <div className="modal-header">
+        <h3 className="text-primary fw-bolder modal-title animate__animated animate__fadeIn animate__infinite infinite animate__slow">MIS</h3>
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div className="modal-body">
+        <div className="row">
+         <div className="col-md-7 col-lg-7">
+            <img src={ mis } className="img-fluid w-100 h-100 img-thumbnail" />
+         </div>
+         <div className="col-md-5 col-lg-5">
+            <h3>AMIS</h3>
+            <p>
+                This porfolio was made in 2024 I develope this website for School located near in SM SouthMall.
+                <a href="https://mis-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-danger fw-bolder">Visit</a>
             </p>
          </div>
         </div>
