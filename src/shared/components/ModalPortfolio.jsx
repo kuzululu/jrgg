@@ -276,7 +276,7 @@ closeBtns.forEach((btn) => {
          <div className="col-md-5 col-lg-5">
             <h3>AZGH College Web</h3>
             <p>
-                This porfolio was made in 2017 I develope this website for the school that i used to work but still i'm was using bootstrap 3 back then
+                This porfolio was made in 2017 I develope this website for the school that i used to work but still i'm was using bootstrap 3 back then <a href="https://agzhcollegeinc.vercel.app/" target="_blank" className="text-danger fw-bolder">Visit</a>
             </p>
          </div>
         </div>
@@ -353,5 +353,6 @@ closeBtns.forEach((btn) => {
   </>
  )
 }
+
 
 export default ModalPortfolio
