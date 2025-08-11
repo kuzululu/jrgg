@@ -9,6 +9,6 @@ export default defineConfig({
   plugins: [react()],
   server:{
     base: "/reactPortfolio",
-    base: process.env.VITE_BASE_PATH || "/reactPortfolio",
+    base: process.env.VITE_BASE_PATH || "/jrgg",
   }
 })
