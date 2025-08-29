@@ -2,21 +2,21 @@ import { NavLink, useLocation } from "react-router-dom"
 import { useEffect, useState, userRef } from "react"
 import Logo from '../../assets/images/logo/logo.png'
 
-import Collapse from 'bootstrap/js/dist/collapse'
-
-
 const Navbar = () =>{
 
     const location = useLocation()
     
     useEffect(()=>{
-         // Collapse the navbar after route change
-         const navbarCollapseEl = document.querySelector("#navbarNav")
+        const navbarCollapseEl = document.querySelector("#navbarNav")
+ const togglerBtn = document.querySelector(".navbar-toggler")
 
-         if(navbarCollapseEl && navbarCollapseEl.classList.contains("show")){
-            const bsCollapse = Collapse.getInstance(navbarCollapseEl) || new Collapse(navbarCollapseEl, { toggle: false });
-            bsCollapse.hide();
-         }
+ if(navbarCollapseEl && navbarCollapseEl.classList.contains("show")){
+   // remove the show
+   navbarCollapseEl.classList.remove("show")
+
+   // consistent Bootstrap state
+   togglerBtn?.setAttribute("aria-expanded", "false")
+ }
     }, [location])
     
     return (
