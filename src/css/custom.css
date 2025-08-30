@@ -235,3 +235,7 @@ progress::-webkit-progress-value {
   background: linear-gradient(90deg, #00c6ff, #0072ff);
   border-radius: 10em;
 }
+
+.active{
+ background: #22C1C3;
+}
