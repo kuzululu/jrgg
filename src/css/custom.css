@@ -238,4 +238,6 @@ progress::-webkit-progress-value {
 
 .active{
  background: #22C1C3;
+ opacity: .5;
+ border-radius: 1px;
 }
