@@ -46,7 +46,7 @@ const AboutPage = () => {
           <h2 className="position-absolute"><TypingEffect /> {/* 👈 Insert here */}</h2>
           
           <p className="about-me pt-5">
-            Hi, I'm Jeff Ronald Gamasan from the Philippines. I was an IT Instructor from 2015 to 2020, where I had the privilege of teaching various areas in Information Technology — particularly focusing on frontend web development. Currently, I work as an IT Technician in a government office, handling technical support and system maintenance.</p>
+            Hi, I'm Jeff Ronald Gamasan from the Philippines. I was an IT Instructor from 2015 to 2020, where I had the privilege of teaching various areas in Information Technology — particularly focusing on frontend web development. Currently, I work as an IT Technical Support in a government office, handling Technical Support and System and Network maintenance.</p>
 
            <p className="about-me">Although I have years of experience, I humbly consider myself a lifelong learner. As a web developer, I treat myself as a newbie every day — always open to learning new things and improving my craft. I believe that staying grounded and constantly curious is key to growing in this ever-evolving field.
 
@@ -65,6 +65,12 @@ const AboutPage = () => {
                 <ul>
                    <li>Laravel</li>
                    <li>CodeIginiter</li>
+                </ul>
+              </li>
+              <li>
+               Networking
+                <ul>
+                 <li>CCNA Training</li>
                 </ul>
               </li>
             </ul>
