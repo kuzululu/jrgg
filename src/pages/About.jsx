@@ -67,6 +67,9 @@ const AboutPage = () => {
                    <li>CodeIginiter</li>
                 </ul>
               </li>
+              <li>Computer Troubleshoot (Hardware/Software)</li>
+              <li>Systems Servers Maintanance</li>
+              <li>Fortinet Firewall Configurations and Maitanance</li>
               <li>
                Networking
                 <ul>
