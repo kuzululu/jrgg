@@ -83,8 +83,8 @@ return (
             <i className="fas fa-envelope me-3"></i>
             jeffgamasan@gmail.com
           </p>
-          <p><i className="fab fa-viber me-3"></i> <a className='text-light' href="viber://chat?number=+639452869822">0945 2869 822</a></p>
-          <p><i className="fas fa-phone-alt me-3"></i> <a className='text-light' href="tel:+939452869822">0945 2869 822</a></p>
+          <p><i className="fab fa-viber me-3"></i> <a className='text-light' href="viber://chat?number=+639452869822">0935 0448 736</a></p>
+          <p><i className="fas fa-phone-alt me-3"></i> <a className='text-light' href="tel:+939452869822">0935 0448 736</a></p>
         </div>
         
       </div>
