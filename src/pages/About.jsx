@@ -24,7 +24,7 @@ const AboutPage = () => {
         <center><img src={profile} className="w-75 img-fluid" id="portfolio" /></center>
         <div className="mt-3 text-light">
             <h6><i className="fa fa-user" /> Jeff Ronald G. Gamasan</h6>
-            <h6><i className="fa fa-phone-alt" /> 09452869822</h6>
+            <h6><i className="fa fa-phone-alt" /> 09350448736</h6>
             <h6><i className="fa fa-envelope" /> jeffgamasan@gmail.com</h6><hr/>
 
             <h5 className="text-center text-uppercase">Freelance</h5>
